@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 import Navbar from './Navbar';
 import { ImCross } from "react-icons/im";
 import ImgSlider from './ImgSlider';
@@ -56,17 +56,17 @@ const Projects = () => {
                         <p className="text-gray-600 text-sm text-ellipsis line-clamp-3 mt-1">{item.description}</p>
                      </div>
 
-                     <div className="w-full flex justify-between items-center mt-4">
+                     <div className="w-full flex justify-between items-center gap-1 mt-4">
                         <a
                            href={item.github}
-                           className="p-2 text-center bg-blue-600 text-white font-semibold rounded-lg group-hover:bg-blue-700"
+                           className="px-1 py-2 text-center bg-blue-600 text-white font-semibold rounded-lg group-hover:bg-blue-700"
                            target="_blank"
                            rel="noopener noreferrer"
                         >
-                           View on GitHub
+                           GitHub Link
                         </a>
                         <button
-                           className="p-2 bg-blue-600 text-white font-semibold rounded-lg group-hover:bg-blue-700"
+                           className="px-1 py-2 bg-blue-600 text-white font-semibold rounded-lg group-hover:bg-blue-700"
                            onClick={() => {
                               setSelectedProject(item);
                               setModalValue(true);
@@ -75,7 +75,7 @@ const Projects = () => {
                            View Details
                         </button>
                         <button
-                           className="p-2 bg-gray-600 text-white font-semibold rounded-lg group-hover:bg-gray-700"
+                           className="px-1 py-2 bg-gray-600 text-white font-semibold rounded-lg group-hover:bg-gray-700"
                            onClick={() => {
                               setSelectedProject(item);
                               setImageModalValue(true);
