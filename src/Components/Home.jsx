@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import Navbar from './Navbar';
 
 const Home = () => {
@@ -17,9 +17,13 @@ const Home = () => {
                 </div>
 
                 <div className="text-center md:text-left flex flex-col items-center md:items-start gap-6">
-                    <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-600 to-emerald-600" >
+                    <h1
+                        className="text-5xl md:text-6xl font-bold text-slate-600 " 
+                       style={{textShadow:'2px 2px 3px rgba(46, 204, 113, 0.6)'}}
+                    >
                         Frontend Developer
                     </h1>
+
                     <p className="text-lg md:text-xl text-gray-700  max-w-2xl">
                         Crafting seamless digital experiences with modern technologies like{' '}
                         <span className="text-blue-600 font-medium">React</span>,{' '}
@@ -27,17 +31,19 @@ const Home = () => {
                         <span className="text-purple-600 font-medium">Tailwind CSS</span>. Specializing in building
                         responsive, dynamic, and visually stunning user interfaces.
                     </p>
+
                     <a
-                        href="#portfolio"
+                        href="/resume.pdf"
+                        download="Rahul_Sahani_Resume.pdf"
                         className="mt-4 px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-500 text-white text-lg font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-500"
                     >
-                        View My Work
+                        Download Resume
                     </a>
                 </div>
             </div>
 
             <div className="text-center py-4 bg-slate-600 text-white text-sm">
-                © 2025  Rahul Sahani All rights reserved.
+                © 2025 Rahul Sahani All rights reserved.
             </div>
         </div>
     );
