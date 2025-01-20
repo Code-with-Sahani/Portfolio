@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 import Navbar from './Navbar';
 
 const Contact = () => {
@@ -38,7 +38,7 @@ const Contact = () => {
   return (
     <div className="w-full min-h-screen bg-gray-100 flex flex-col justify-center items-center px-4 pt-10">
       <Navbar />
-      <section className="w-1/2 p-2 bg-white rounded-xl shadow-2xl">
+      <section className="w-full sm:w-3/4 md:w-1/2 lg:w-1/3 p-4 bg-white rounded-xl shadow-2xl">
         <h2 className="text-3xl font-semibold text-gray-700 text-center mb-8">Contact Me</h2>
 
         <form onSubmit={handleSubmit}>
