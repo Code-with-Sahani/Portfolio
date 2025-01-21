@@ -1,4 +1,4 @@
-import React from 'react';
+   import React from 'react';
 import Navbar from './Navbar';
 import { FaHtml5 } from "react-icons/fa6";
 import { FaCss3Alt } from "react-icons/fa";
@@ -10,23 +10,7 @@ import { AiOutlineApi } from "react-icons/ai";
 import { MdOutlineWeb } from "react-icons/md";
 
 const Skills = () => {
-  const technicalSkills = [
-    { title: 'HTML', icon: <FaHtml5 className="text-6xl text-white" /> },
-    { title: 'CSS', icon: <FaCss3Alt className="text-6xl text-white" /> },
-    { title: 'Tailwind CSS', icon: <RiTailwindCssFill className="text-6xl text-white" /> },
-    { title: 'JavaScript', icon: <IoLogoJavascript className="text-6xl text-white" /> },
-    { title: 'React', icon: <FaReact className="text-6xl text-white" /> },
-    { title: 'Redux', icon: <SiRedux className="text-6xl text-white" /> },
-    { title: 'API Integration', icon: <AiOutlineApi className="text-6xl text-white" /> },
-    { title: 'Responsive Design', icon: <MdOutlineWeb className="text-6xl text-white" /> },
-  ];
-
-  const softSkills = [
-    { title: 'Leadership', icon: '👨‍💼' },
-    { title: 'Teamwork', icon: '🤝' },
-    { title: 'Decision Making', icon: '🧠' },
-  ];
-
+  
   return (
     <div className="w-full min-h-screen bg-gray-100">
       <Navbar />
