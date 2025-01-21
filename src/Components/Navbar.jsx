@@ -16,6 +16,9 @@ const Navbar = () => {
                     <Link to="/" className="text-lg text-gray-300 hover:text-white transition-all duration-300">
                         Home
                     </Link>
+                    <Link to="/experience" className="text-lg text-gray-300 hover:text-white transition-all duration-300">
+                        Experience
+                    </Link>
                     <Link to="/skills" className="text-lg text-gray-300 hover:text-white transition-all duration-300">
                         Skills
                     </Link>
@@ -32,7 +35,7 @@ const Navbar = () => {
                 {/* Hamburger Menu for Mobile */}
                 <button className="md:hidden text-white" onClick={toggleMenu}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
                 </button>
             </div>
@@ -41,6 +44,9 @@ const Navbar = () => {
             <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} bg-slate-600 p-4`}>
                 <Link to="/" className="block text-lg text-gray-300 hover:text-white py-2">
                     Home
+                </Link>
+                <Link to="/experience" className="block text-lg text-gray-300 hover:text-white py-2">
+                    Experience
                 </Link>
                 <Link to="/skills" className="block text-lg text-gray-300 hover:text-white py-2">
                     Skills
