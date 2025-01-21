@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 
 const Home = () => {
     return (
-        <div className="w-full h-screen bg-cover bg-center flex flex-col bg-slate-100 pt-20">
+        <div className="w-full min-h-screen flex flex-col bg-slate-100 pt-20">
             <Navbar />
 
             <div className="flex flex-1 flex-col md:flex-row items-center justify-center gap-16 px-6">
