@@ -1,11 +1,11 @@
- import React from 'react';
+import React from 'react';
 import Navbar from './Navbar';
 
 const Certification = () => {
   const certifications = [
     {
-      title: 'CSS Complete Course for Beginners',
-      link: 'https://www.udemy.com/certificate/UC-e9155361-5653-4000-b620-01f4ede4c582/',
+      title: 'Front End Web Development Niche Website Complete Project',
+      link: 'https://www.udemy.com/certificate/UC-67e5581b-6c91-4267-a13d-b5f4a4e0e3c5/',
     },
     {
       title: 'ReactJs: Complete Guide for Frontend',
@@ -16,8 +16,8 @@ const Certification = () => {
       link: 'https://www.udemy.com/certificate/UC-1b967330-9a05-4c5d-b04c-42a12296a977/',
     },
     {
-      title: 'Front End Web Development Niche Website Complete Project',
-      link: 'https://www.udemy.com/certificate/UC-67e5581b-6c91-4267-a13d-b5f4a4e0e3c5/',
+      title: 'CSS Complete Course for Beginners',
+      link: 'https://www.udemy.com/certificate/UC-e9155361-5653-4000-b620-01f4ede4c582/',
     },
     {
       title: 'Python Programming - From Basics to Advanced Level',
