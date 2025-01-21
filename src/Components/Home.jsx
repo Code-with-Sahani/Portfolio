@@ -16,19 +16,16 @@ const Home = () => {
                     />
                 </div>
  
-                <div className="text-center md:text-left flex flex-col items-center md:items-start gap-4">
+                <div className="text-center md:text-left flex flex-col items-center md:items-start gap-6">
                     <h1
                         className="text-4xl md:text-5xl font-extrabold text-slate-700"
                         style={{ textShadow: '2px 2px 2px skyblue' }}
                     >
                         Hi, I'm Rahul Sahani
                     </h1>
-                    <h2 className="text-3xl md:text-4xl font-semibold text-indigo-700">
-                        Frontend Developer
-                    </h2>
 
                     <p className="text-lg md:text-xl text-gray-800 max-w-2xl leading-relaxed">
-                        Passionate about crafting seamless digital experiences using modern technologies like{' '}
+                    A <span className='font-semibold  text-slate-700'>Frontend Developer</span> & specialize in crafting seamless digital experiences with modern technologies like{' '}
                         <span className="text-blue-600 font-medium">React</span>,{' '}
                         <span className="text-teal-600 font-medium">Redux</span>, and{' '}
                         <span className="text-purple-600 font-medium">Tailwind CSS</span>. 
