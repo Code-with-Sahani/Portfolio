@@ -1,4 +1,4 @@
-   import React from 'react';
+import React from 'react';
 import Navbar from './Navbar';
 import { FaHtml5 } from "react-icons/fa6";
 import { FaCss3Alt } from "react-icons/fa";
@@ -14,14 +14,10 @@ const Skills = () => {
   return (
     <div className="w-full min-h-screen bg-gray-100">
       <Navbar />
-      <div className="flex flex-col justify-start items-center gap-8 px-5 py-2">
-
-        <h1 className="w-full text-3xl font-bold text-gray-800" style={{ textShadow: '1px 1px 4px white' }}>
-          Technologies & Soft Skills I possess:
-        </h1>
+      <div className="flex flex-col justify-start items-center gap-8 px-5 py-2 pt-20">
 
         <div className="w-full max-w-7xl">
-          <h2 className="text-2xl font-semibold text-gray-700 mb-6">Technical Skills</h2>
+          <h2 className="w-full text-3xl font-bold text-blue-600 mb-6">Technical Skills</h2>
           <div className="flex flex-row flex-wrap justify-start items-center gap-5">
 
             <div className='bg-slate-200 w-32 h-24 rounded-md flex flex-col justify-center items-center gap-2 py-2 shadow-md shadow-slate-400 hover:scale-105 translate transition-all duration-700'>
@@ -69,7 +65,7 @@ const Skills = () => {
 
 
         <div className="w-full max-w-7xl mt-10">
-          <h2 className="text-2xl font-semibold text-gray-700 mb-6">Soft Skills</h2>
+          <h2 className="w-full text-3xl font-bold text-blue-600 mb-6">Soft Skills</h2>
           <div className="flex flex-row flex-wrap justify-start items-center gap-5">
              
           <div className='bg-slate-200 w-32 h-24 rounded-md flex flex-col justify-center items-center gap-2 py-2 shadow-md shadow-slate-400 hover:scale-105 translate transition-all duration-700'>
