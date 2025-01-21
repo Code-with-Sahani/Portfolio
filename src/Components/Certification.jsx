@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import Navbar from './Navbar';
 
 const Certification = () => {
@@ -33,12 +33,12 @@ const Certification = () => {
     <div className="w-full min-h-screen bg-gray-100">
       <Navbar />
       <div className="flex flex-col justify-start items-center gap-8 px-5 py-20">
-        <h1 className=" w-full text-3xl font-bold text-gray-800">Certifications</h1> 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl">
+        <h1 className=" w-full text-3xl font-bold text-blue-600">Certifications</h1> 
+        <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl">
           {certifications.map((cert, index) => (
             <div
               key={index}
-              className="p-6 bg-white shadow-md rounded-lg hover:shadow-lg transform hover:-translate-y-1 transition duration-300"
+              className="p-6 bg-slate-200 shadow-md rounded-lg hover:shadow-lg transform hover:-translate-y-1 transition duration-300"
             >
               <h2 className="text-lg font-semibold text-gray-700 mb-3">{cert.title}</h2>
               <a
