@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+ import React, { useState } from 'react';
 import Navbar from './Navbar';
 import { ImCross } from "react-icons/im";
 import ImgSlider from './ImgSlider';
