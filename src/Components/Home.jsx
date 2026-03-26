@@ -25,7 +25,7 @@ const Home = () => {
                     A <span className='font-semibold  text-slate-700'>full stack Developer</span> & specialize in crafting seamless digital experiences with modern technologies like{' '}
                         <span className="text-blue-600 font-medium">React</span>,{' '}
                         <span className="text-teal-600 font-medium">Redux</span>,{' '}
-                        <span className="text-purple-600 font-medium">Tailwind CSS</span>, and{' '}
+                        <span className="text-purple-600 font-medium">Tailwind CSS</span>,and{' '}
                         <span className="text-purple-600 font-medium">PHP</span>.
                         I specialize in building responsive, dynamic, and visually stunning user interfaces, delivering user-centric and impactful solutions.
                     </p>
