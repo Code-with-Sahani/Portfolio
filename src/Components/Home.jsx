@@ -26,7 +26,7 @@ const Home = () => {
                         <span className="text-blue-600 font-medium">React</span>,{' '}
                         <span className="text-teal-600 font-medium">Redux</span>,{' '}
                         <span className="text-purple-600 font-medium">Tailwind CSS</span>, and{' '}
-                        <span className="text-purple-600 font-medium">Tailwind CSS</span>.
+                        <span className="text-purple-600 font-medium">PHP</span>.
                         I specialize in building responsive, dynamic, and visually stunning user interfaces, delivering user-centric and impactful solutions.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 mt-6">
