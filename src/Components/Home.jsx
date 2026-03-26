@@ -22,10 +22,11 @@ const Home = () => {
                         Hi, I'm Rahul Sahani
                     </h1>
                     <p className="text-lg md:text-xl text-gray-800 max-w-2xl leading-relaxed">
-                    A <span className='font-semibold  text-slate-700'>Frontend Developer</span> & specialize in crafting seamless digital experiences with modern technologies like{' '}
+                    A <span className='font-semibold  text-slate-700'>full stack Developer</span> & specialize in crafting seamless digital experiences with modern technologies like{' '}
                         <span className="text-blue-600 font-medium">React</span>,{' '}
-                        <span className="text-teal-600 font-medium">Redux</span>, and{' '}
-                        <span className="text-purple-600 font-medium">Tailwind CSS</span>. 
+                        <span className="text-teal-600 font-medium">Redux</span>,{' '}
+                        <span className="text-purple-600 font-medium">Tailwind CSS</span>, and{' '}
+                        <span className="text-purple-600 font-medium">Tailwind CSS</span>.
                         I specialize in building responsive, dynamic, and visually stunning user interfaces, delivering user-centric and impactful solutions.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 mt-6">
