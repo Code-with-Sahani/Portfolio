@@ -2,16 +2,30 @@ import React from "react";
 import Navbar from "./Navbar";
 
 const Home = () => {
+  const techStack = [
+    "React.js",
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "PostgreSQL",
+    "Prisma",
+    "OpenAI API",
+    "Tailwind CSS",
+  ];
+
   return (
     <div className="w-full min-h-screen flex flex-col bg-gradient-to-br from-slate-50 to-gray-100 pt-20">
       <Navbar />
 
       {/* Hero Section */}
-      <section className="flex flex-1 flex-col md:flex-row items-center justify-center gap-16 px-6 lg:px-20 py-10">
+      <section className="flex flex-1 flex-col md:flex-row items-center md:items-start justify-center gap-16 px-6 lg:px-20 py-10">
         
-        {/* Profile Image */}
-        <div className="relative">
-          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl hover:scale-105 transition-transform duration-500">
+        {/* Profile Image Section */}
+        <div className="relative md:self-start md:mt-16">
+          
+          <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 blur-xl opacity-20"></div>
+
+          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl hover:scale-105 transition-all duration-500">
             <img
               src="/Images/profile_img.png"
               alt="Rahul Sahani"
@@ -19,13 +33,12 @@ const Home = () => {
             />
           </div>
 
-          {/* Experience Badge */}
-          <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg text-sm font-medium">
+          <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-5 py-2 rounded-full shadow-lg text-sm font-semibold whitespace-nowrap">
             React & Next.js Developer
           </div>
         </div>
 
-        {/* Content */}
+        {/* Content Section */}
         <div className="max-w-3xl text-center md:text-left flex flex-col items-center md:items-start">
 
           <span className="px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-medium text-sm mb-5">
@@ -67,18 +80,9 @@ const Home = () => {
             modern UI/UX principles, and scalable development practices.
           </p>
 
-          {/* Tech Stack Badges */}
+          {/* Tech Stack */}
           <div className="flex flex-wrap justify-center md:justify-start gap-3 mt-8">
-            {[
-              "React.js",
-              "Next.js",
-              "TypeScript",
-              "Node.js",
-              "PostgreSQL",
-              "Prisma",
-              "OpenAI API",
-              "Tailwind CSS",
-            ].map((tech) => (
+            {techStack.map((tech) => (
               <span
                 key={tech}
                 className="px-4 py-2 bg-white shadow-md rounded-full text-sm font-medium text-slate-700 hover:scale-105 transition duration-300"
@@ -88,8 +92,9 @@ const Home = () => {
             ))}
           </div>
 
-          {/* CTA Buttons */}
+          {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-10">
+            
             <a
               href="/Resume.pdf"
               download="Rahul_Sahani_Resume.pdf"
@@ -106,10 +111,12 @@ const Home = () => {
             >
               View Projects
             </a>
+
           </div>
 
           {/* Project Highlights */}
           <div className="mt-10 flex flex-wrap justify-center md:justify-start gap-3">
+
             <span className="bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium">
               AI SaaS Platform
             </span>
@@ -129,12 +136,13 @@ const Home = () => {
             <span className="bg-red-100 text-red-700 px-4 py-2 rounded-full text-sm font-medium">
               OCR System
             </span>
+
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-800 text-white py-4 text-center text-sm">
+      <footer className="bg-slate-800 text-white py-4 text-center text-sm mt-auto">
         © 2026 Rahul Sahani | Frontend Developer | React.js • Next.js • TypeScript
       </footer>
     </div>
